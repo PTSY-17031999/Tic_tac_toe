@@ -1,0 +1,7 @@
+F:\CodeGym\Du_an_C_thang_2\Du_an_C_thang_2\bin\Debug\Du_an_C_thang_2.exe.config
+F:\CodeGym\Du_an_C_thang_2\Du_an_C_thang_2\bin\Debug\Du_an_C_thang_2.exe
+F:\CodeGym\Du_an_C_thang_2\Du_an_C_thang_2\bin\Debug\Du_an_C_thang_2.pdb
+F:\CodeGym\Du_an_C_thang_2\Du_an_C_thang_2\obj\Debug\Du_an_C_thang_2.csproj.AssemblyReference.cache
+F:\CodeGym\Du_an_C_thang_2\Du_an_C_thang_2\obj\Debug\Du_an_C_thang_2.csproj.CoreCompileInputs.cache
+F:\CodeGym\Du_an_C_thang_2\Du_an_C_thang_2\obj\Debug\Du_an_C_thang_2.exe
+F:\CodeGym\Du_an_C_thang_2\Du_an_C_thang_2\obj\Debug\Du_an_C_thang_2.pdb
