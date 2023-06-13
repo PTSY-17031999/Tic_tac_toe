@@ -12,10 +12,16 @@ namespace Du_an_C_thang_2
         public const int BOARD_SIZE = 25;    //kích thước cố định
         public Cell[,] board;               //ma trận 2 chiều
         int Save_verticalY;
-        int Save_horizontalX; 
+        int Save_horizontalX;
+
+        public int Get_X() { return Save_horizontalX; }
+        public int Get_Y() { return Save_verticalY; }
+
         //Khởi tạo bảng rỗng
         public Board()
         {
+            int Save_verticalY = 0;
+            int Save_horizontalX = 0;
             board = new Cell[BOARD_SIZE, BOARD_SIZE];
             for (int i = 0; i < BOARD_SIZE; i++)
             {
@@ -84,12 +90,7 @@ namespace Du_an_C_thang_2
             Console.Clear();
         }
 
-        public int[] Get_X_Y_KT()
-        {
-            int[] _out = new int[2] {Save_horizontalX , Save_verticalY};
-            return _out;
-
-        }
+       
         
     }
 }

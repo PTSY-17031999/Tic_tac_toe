@@ -36,9 +36,10 @@ namespace Du_an_C_thang_2
             return (c1 != FIELD.FLD_EMPTY) && (c1 == c2) && (c2 == c3);
         }
         //Kiểm tra 5d hàng ngang
-        private bool checkRowsForWin(Board gameBoard)
+        private bool checkRowsForWin(Board gameBoard , int x , int y)
         {
-            for (int i = 0; i < Board.BOARD_SIZE; i++)
+
+            for (int i = 0; i < 5; i--)
             {
                 if (checkRowCol(gameBoard.board[i, 0].getFieldState(),
                         gameBoard.board[i, 1].getFieldState(),
@@ -78,11 +79,11 @@ namespace Du_an_C_thang_2
         //Kiểm tra trạng thái
         public bool checkWin(Board gameBoard)
         {
-           int [] _int =  _board.Get_X_Y_KT();
-            int x = _int[0];
-            int y = _int[1];
+            int x = _board.Get_X();
+            int y = _board.Get_Y();
             Console.WriteLine(x + " " + y);
-            return (checkRowsForWin(gameBoard) || checkColumnsForWin(gameBoard) || checkDiagonalsForWin(gameBoard));
+            return true;
+            //return (checkRowsForWin(gameBoard) || checkColumnsForWin(gameBoard) || checkDiagonalsForWin(gameBoard));
         }
 
     }
