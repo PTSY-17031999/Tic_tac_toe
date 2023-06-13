@@ -14,8 +14,8 @@ namespace Du_an_C_thang_2
         int Save_verticalY;
         int Save_horizontalX;
 
-        public int Get_X() { return Save_horizontalX; }
-        public int Get_Y() { return Save_verticalY; }
+        public int Get_Save_horizontalX() { return Save_horizontalX; }
+        public int Get_Save_verticalY() { return Save_verticalY; }
 
         //Khởi tạo bảng rỗng
         public Board()
