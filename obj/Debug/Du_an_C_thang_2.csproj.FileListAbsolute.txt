@@ -5,3 +5,10 @@ F:\CodeGym\Du_an_C_thang_2\Du_an_C_thang_2\obj\Debug\Du_an_C_thang_2.csproj.Asse
 F:\CodeGym\Du_an_C_thang_2\Du_an_C_thang_2\obj\Debug\Du_an_C_thang_2.csproj.CoreCompileInputs.cache
 F:\CodeGym\Du_an_C_thang_2\Du_an_C_thang_2\obj\Debug\Du_an_C_thang_2.exe
 F:\CodeGym\Du_an_C_thang_2\Du_an_C_thang_2\obj\Debug\Du_an_C_thang_2.pdb
+F:\CodeGym\Tic_tac_toe\bin\Debug\Du_an_C_thang_2.exe.config
+F:\CodeGym\Tic_tac_toe\bin\Debug\Du_an_C_thang_2.exe
+F:\CodeGym\Tic_tac_toe\bin\Debug\Du_an_C_thang_2.pdb
+F:\CodeGym\Tic_tac_toe\obj\Debug\Du_an_C_thang_2.csproj.AssemblyReference.cache
+F:\CodeGym\Tic_tac_toe\obj\Debug\Du_an_C_thang_2.csproj.CoreCompileInputs.cache
+F:\CodeGym\Tic_tac_toe\obj\Debug\Du_an_C_thang_2.exe
+F:\CodeGym\Tic_tac_toe\obj\Debug\Du_an_C_thang_2.pdb

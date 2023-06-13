@@ -78,9 +78,9 @@ namespace Du_an_C_thang_2
         //Kiểm tra trạng thái
         public bool checkWin(Board gameBoard)
         {
-           int [] a =  _board.Get_X_Y_KT();
-            int x = a[0];
-            int y = a[1];
+           int [] _int =  _board.Get_X_Y_KT();
+            int x = _int[0];
+            int y = _int[1];
             Console.WriteLine(x + " " + y);
             return (checkRowsForWin(gameBoard) || checkColumnsForWin(gameBoard) || checkDiagonalsForWin(gameBoard));
         }
