@@ -29,13 +29,13 @@ namespace Du_an_C_thang_2
             {
                 gameBoard.printBoard();
                 Console.WriteLine("Nguoi choi: {0} Toi luot ban choi ", currentPlayer.getSign());
-
+               // Console.WriteLine(currentPlayer.checkWin(gameBoard).ToString());
                 try
                 {
                     gameBoard.putMark(currentPlayer, playerX.takeTurn());
                     gameBoard.clearBoard();
                     moveCounter++;
-
+                    
                     if (currentPlayer.checkWin(gameBoard))
                     {
                         Console.WriteLine("Nguoi choi: {0} THANG!", currentPlayer.getSign());

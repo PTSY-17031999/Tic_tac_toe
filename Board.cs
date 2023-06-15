@@ -55,7 +55,7 @@ namespace Du_an_C_thang_2
                         
                     else
                     {
-                       // if(( (char)(board[i, j].getFieldState() == "X"))){ }
+                       //if( (char)(board[i, j].getFieldState() == "X")){ }
                        
                         Console.Write(" " + (char)(board[i, j].getFieldState()) + " ");
                     }
