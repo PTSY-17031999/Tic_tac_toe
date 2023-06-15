@@ -72,6 +72,9 @@ namespace Du_an_C_thang_2
 
 
 
+
+
+
         //Kiểm tra 5d hàng dọc
         private bool checkColumnsForWin(Board gameBoard, int x, int y)
         {
